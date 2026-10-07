@@ -62,7 +62,9 @@ export const ProductsSlider: React.FC<Props> = ({
             type="button"
             className={styles['products__slider-btn']}
             onClick={() =>
-              setStartIndex(prev => getProductIndex(products, prev, 'prev', cardsPerView))
+              setStartIndex(prev =>
+                getProductIndex(products, prev, 'prev', cardsPerView),
+              )
             }
           >
             <img
@@ -76,7 +78,9 @@ export const ProductsSlider: React.FC<Props> = ({
             type="button"
             className={styles['products__slider-btn']}
             onClick={() =>
-              setStartIndex(prev => getProductIndex(products, prev, 'next', cardsPerView))
+              setStartIndex(prev =>
+                getProductIndex(products, prev, 'next', cardsPerView),
+              )
             }
           >
             <img

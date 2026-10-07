@@ -274,8 +274,7 @@
       display: grid;
       grid-template-columns: 16px 80px minmax(0, 1fr);
       grid-template-rows: auto auto;
-      column-gap: 16px;
-      row-gap: 16px;
+      gap: 16px;
 
       width: 100%;
       height: auto;
@@ -313,8 +312,7 @@
         grid-column: 3;
         grid-row: 2;
 
-        align-self: center;
-        justify-self: end;
+        place-self: center end;
         white-space: nowrap;
       }
     }

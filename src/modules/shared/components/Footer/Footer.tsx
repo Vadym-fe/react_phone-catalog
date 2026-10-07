@@ -28,14 +28,15 @@ export const Footer = () => {
             </a>
           </li>
           <li className={styles['footer__nav-item']}>
-            <a href="/mailto:vadimivanskij9@gmail.com" className={styles['footer__nav-link']}>
+            <a
+              href="/mailto:vadimivanskij9@gmail.com"
+              className={styles['footer__nav-link']}
+            >
               contacts
             </a>
           </li>
           <li className={styles['footer__nav-item']}>
-            <span className={styles['footer__nav-link']}>
-              rights
-            </span>
+            <span className={styles['footer__nav-link']}>rights</span>
           </li>
         </ul>
       </div>
