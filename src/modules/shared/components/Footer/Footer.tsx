@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className={styles.footer__logo}>
         <Link to="/">
           <img
-            src="/img/logo.png"
+            src="./img/logo.png"
             alt=""
             className={styles['footer__logo-img']}
           />
@@ -53,7 +53,7 @@ export const Footer = () => {
 
           <span className={styles['footer__back-to-top-container']}>
             <img
-              src="/img/arrTop.png"
+              src="./img/arrTop.png"
               alt=""
               className={styles['footer__back-to-top-icon']}
             />

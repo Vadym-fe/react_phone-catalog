@@ -121,7 +121,7 @@ export const ProductDetailsPage = () => {
               <li className={styles.breadcrumbs__item}>
                 <Link to="/" className={styles.breadcrumbs__link}>
                   <img
-                    src="/img/home.png"
+                    src="./img/home.png"
                     alt=""
                     className={styles.breadcrumbs__img}
                   />
@@ -130,7 +130,7 @@ export const ProductDetailsPage = () => {
 
               <li className={styles.breadcrumbs__item}>
                 <img
-                  src="/img/arrRight.png"
+                  src="./img/arrRight.png"
                   alt=""
                   className={styles.breadcrumbs__icon}
                 />
@@ -147,7 +147,7 @@ export const ProductDetailsPage = () => {
 
               <li className={styles.breadcrumbs__item}>
                 <img
-                  src="/img/arrRight.png"
+                  src="./img/arrRight.png"
                   alt=""
                   className={styles.breadcrumbs__icon}
                 />
@@ -165,7 +165,7 @@ export const ProductDetailsPage = () => {
               onClick={() => navigate(-1)}
             >
               <img
-                src="/img/arrLeft.png"
+                src="./img/arrLeft.png"
                 alt=""
                 className={styles['back-to__prev-icon']}
               />
@@ -316,8 +316,8 @@ export const ProductDetailsPage = () => {
                     <img
                       src={
                         isAddedFavourite
-                          ? '/img/favourites-active.png'
-                          : '/img/favourites.png'
+                          ? './img/favourites-active.png'
+                          : './img/favourites.png'
                       }
                       alt=""
                       className={styles['details__purchase-action-img']}

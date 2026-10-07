@@ -34,7 +34,7 @@ export const CartPage = () => {
           onClick={() => navigate(-1)}
         >
           <img
-            src="/img/arrLeft.png"
+            src="./img/arrLeft.png"
             alt=""
             className={styles['back-to__prev-icon']}
           />
@@ -57,7 +57,7 @@ export const CartPage = () => {
                   onClick={() => removeFromCart(cartItem.product.id)}
                 >
                   <img
-                    src="/img/Close.png"
+                    src="./img/Close.png"
                     alt=""
                     className={styles['cart__item-icon']}
                   />
@@ -83,7 +83,7 @@ export const CartPage = () => {
                     disabled={cartItem.quantity === 1}
                   >
                     <img
-                      src="/img/Minus.png"
+                      src="./img/Minus.png"
                       alt=""
                       className={styles['cart__item-icon']}
                     />
@@ -99,7 +99,7 @@ export const CartPage = () => {
                     onClick={() => changeQuantity(cartItem.product.id, 1)}
                   >
                     <img
-                      src="/img/Plus.png"
+                      src="./img/Plus.png"
                       alt=""
                       className={styles['cart__item-icon']}
                     />

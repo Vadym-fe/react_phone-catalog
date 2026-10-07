@@ -7,9 +7,9 @@ import { Loader } from '../../../shared/components/Loader/Loader';
 import { useProductsContext } from '../../../../hook/useProductsContext';
 
 const BANNERS = [
-  '/img/banner-phones.jpg',
-  '/img/banner-tablets.jpg',
-  '/img/banner-accessories.jpg',
+  './img/banner-phones.jpg',
+  './img/banner-tablets.jpg',
+  './img/banner-accessories.jpg',
 ];
 
 export const HomePage = () => {
@@ -66,7 +66,7 @@ export const HomePage = () => {
           }}
         >
           <img
-            src="/img/arrLeft.png"
+            src="./img/arrLeft.png"
             alt="Previous slide"
             className={styles['main__slider-btn-icon']}
           />
@@ -103,7 +103,7 @@ export const HomePage = () => {
           }}
         >
           <img
-            src="/img/arrRight.png"
+            src="./img/arrRight.png"
             alt="Next slide"
             className={styles['main__slider-btn-icon']}
           />
@@ -135,7 +135,7 @@ export const HomePage = () => {
                 className={`${styles['categories__card-image']} ${styles['categories__card-image-phones']}`}
               >
                 <img
-                  src="/img/category-phones.png"
+                  src="./img/category-phones.png"
                   alt=""
                   className={styles['categories__card-img']}
                 />
@@ -157,7 +157,7 @@ export const HomePage = () => {
                 className={`${styles['categories__card-image']} ${styles['categories__card-image-tablets']}`}
               >
                 <img
-                  src="/img/category-tablets.png"
+                  src="./img/category-tablets.png"
                   alt=""
                   className={styles['categories__card-img']}
                 />
@@ -179,7 +179,7 @@ export const HomePage = () => {
                 className={`${styles['categories__card-image']} ${styles['categories__card-image-accessories']}`}
               >
                 <img
-                  src="/img/category-accessories.png"
+                  src="./img/category-accessories.png"
                   alt=""
                   className={styles['categories__card-img']}
                 />

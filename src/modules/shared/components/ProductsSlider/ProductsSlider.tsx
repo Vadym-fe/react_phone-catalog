@@ -68,7 +68,7 @@ export const ProductsSlider: React.FC<Props> = ({
             }
           >
             <img
-              src="/img/arrLeft.png"
+              src="./img/arrLeft.png"
               alt="Previous slide"
               className={styles['products__slider-btn-icon']}
             />
@@ -84,7 +84,7 @@ export const ProductsSlider: React.FC<Props> = ({
             }
           >
             <img
-              src="/img/arrRight.png"
+              src="./img/arrRight.png"
               alt="Next slide"
               className={styles['products__slider-btn-icon']}
             />

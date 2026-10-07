@@ -227,7 +227,7 @@ export const CatalogPage: React.FC<Props> = ({ products, category, title }) => {
           <li className={styles.breadcrumbs__item}>
             <Link to="/" className={styles.breadcrumbs__link}>
               <img
-                src="/img/home.png"
+                src="./img/home.png"
                 alt=""
                 className={styles.breadcrumbs__img}
               />
@@ -236,7 +236,7 @@ export const CatalogPage: React.FC<Props> = ({ products, category, title }) => {
 
           <li className={styles.breadcrumbs__item}>
             <img
-              src="/img/arrRight.png"
+              src="./img/arrRight.png"
               alt=""
               className={styles.breadcrumbs__icon}
             />
@@ -328,7 +328,7 @@ export const CatalogPage: React.FC<Props> = ({ products, category, title }) => {
                 }}
               >
                 <img
-                  src="/img/arrLeft.png"
+                  src="./img/arrLeft.png"
                   alt=""
                   className={styles.pagination__icon}
                 />
@@ -365,7 +365,7 @@ export const CatalogPage: React.FC<Props> = ({ products, category, title }) => {
                 }}
               >
                 <img
-                  src="/img/arrRight.png"
+                  src="./img/arrRight.png"
                   alt=""
                   className={styles.pagination__icon}
                 />

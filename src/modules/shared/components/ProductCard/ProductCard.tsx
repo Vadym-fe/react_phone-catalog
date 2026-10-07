@@ -91,8 +91,8 @@ export const ProductCard: React.FC<Props> = ({
           <img
             src={
               isAddedFavourite
-                ? '/img/favourites-active.png'
-                : '/img/favourites.png'
+                ? './img/favourites-active.png'
+                : './img/favourites.png'
             }
             alt=""
             className={styles['product__action-img']}

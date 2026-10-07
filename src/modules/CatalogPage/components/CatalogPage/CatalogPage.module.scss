@@ -129,7 +129,7 @@
 
     appearance: none;
     background-color: #fff;
-    background-image: url('/img/arrDown.png');
+    background-image: url('./img/arrDown.png');
     background-repeat: no-repeat;
     background-position: right 12px center;
     background-size: 16px;
@@ -149,7 +149,7 @@
 
     &:focus {
       border-color: #313237;
-      background-image: url('/img/arrUp.png');
+      background-image: url('./img/arrUp.png');
     }
   }
 }

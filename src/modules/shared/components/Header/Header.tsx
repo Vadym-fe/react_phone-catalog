@@ -77,7 +77,7 @@ export const Header = () => {
       <div className={styles.header__logo}>
         <Link to="/" onClick={() => setIsBurger(false)}>
           <img
-            src="/img/logo.png"
+            src="./img/logo.png"
             alt="Nice Gadgets"
             className={styles['header__logo-img']}
           />
@@ -113,7 +113,7 @@ export const Header = () => {
         >
           <div className={styles['header__action-container']}>
             <img
-              src="/img/favourites.png"
+              src="./img/favourites.png"
               alt="Favorites"
               className={styles['header__action-img']}
             />
@@ -136,7 +136,7 @@ export const Header = () => {
         >
           <div className={styles['header__action-container']}>
             <img
-              src="/img/cart.png"
+              src="./img/cart.png"
               alt="Cart"
               className={styles['header__action-img']}
             />
@@ -156,7 +156,7 @@ export const Header = () => {
         onClick={() => setIsBurger(current => !current)}
       >
         <img
-          src={isBurger ? '/img/Close.png' : '/img/burger.png'}
+          src={isBurger ? './img/Close.png' : './img/burger.png'}
           alt=""
           className={styles['header__burger-icon']}
         />
@@ -183,7 +183,7 @@ export const Header = () => {
             >
               <div className={styles['burger__action-container']}>
                 <img
-                  src="/img/favourites.png"
+                  src="./img/favourites.png"
                   alt="Favorites"
                   className={styles['burger__action-img']}
                 />
@@ -207,7 +207,7 @@ export const Header = () => {
             >
               <div className={styles['burger__action-container']}>
                 <img
-                  src="/img/cart.png"
+                  src="./img/cart.png"
                   alt="Cart"
                   className={styles['burger__action-img']}
                 />

@@ -20,7 +20,7 @@ export const FavoritesPage = () => {
           <li className={styles.breadcrumbs__item}>
             <Link to="/" className={styles.breadcrumbs__link}>
               <img
-                src="/img/home.png"
+                src="./img/home.png"
                 alt=""
                 className={styles.breadcrumbs__img}
               />
@@ -29,7 +29,7 @@ export const FavoritesPage = () => {
 
           <li className={styles.breadcrumbs__item}>
             <img
-              src="/img/arrRight.png"
+              src="./img/arrRight.png"
               alt=""
               className={styles.breadcrumbs__icon}
             />
